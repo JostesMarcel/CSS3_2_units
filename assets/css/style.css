@@ -1,0 +1,61 @@
+body {
+    background-image: url(../img/Fog.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    margin-top: -10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main p:first-child {
+    font-size: 100px;
+    margin: 30vh auto 0 auto;
+    opacity: 0.2;
+    font-size: 8em;
+    color: whitesmoke;
+}
+
+main p:nth-of-type(2) {
+    opacity: 0.1;
+    margin: 0 auto;
+    font-size: 1.5em;
+    color: whitesmoke;
+}
+
+main p:nth-of-type(3) {
+    font-size: 0.6em;
+    margin-top: 8px;
+    opacity: 0.1;
+    color: whitesmoke;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    margin: 10vh auto 0 auto;
+}
+a {
+    color: white;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+button {
+    margin: 10vh;
+    text-transform: uppercase;
+    border-radius: 0.5em;
+    padding: 1vh 1vw;
+    opacity: 0.2;
+    background-color: transparent;
+}
+
+button:hover {
+    border-color: transparent;
+    border-radius: none;
+    background-color: grey;
+}
