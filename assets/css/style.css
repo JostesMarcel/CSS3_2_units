@@ -2,6 +2,7 @@ body {
     background-image: url(../img/Fog.jpeg);
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
+    background-attachment: fixed;
     margin: 0 auto;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +15,7 @@ header {
 
 main p:first-child {
     font-size: 100px;
-    margin: 30vh auto 0 auto;
+    margin: 30vh 0 0 0;
     opacity: 0.2;
     font-size: 8em;
     color: whitesmoke;
